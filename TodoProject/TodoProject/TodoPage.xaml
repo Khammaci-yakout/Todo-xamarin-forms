@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoProject.TodoPage"
+             Title="Todo Home"
+             >
+
+
+    <StackLayout BackgroundColor="#EBEAEA">
+        <ListView x:Name="listView" HasUnevenRows="True" SeparatorVisibility="None" Margin="10">
+            <ListView.ItemTemplate> 
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Frame Padding="1" Margin="0,5,0,5" HeightRequest="50">
+                            <SwipeView>
+                                <SwipeView.LeftItems>
+                                    <SwipeItems>
+                                        <SwipeItem Text="Edit" BackgroundColor="#800080" x:Name="EditSwipeItem" CommandParameter="{Binding ID}" Invoked="Edit_Swipe_item" IconImageSource="edit.png"></SwipeItem>
+                                            <SwipeItem Text="Delete" BackgroundColor="#800080" x:Name="DeleteSwipeItem" CommandParameter="{Binding ID}" Invoked="Delete_Swipe_item" IconImageSource="delete.png"></SwipeItem>
+                                        </SwipeItems>
+                                </SwipeView.LeftItems>
+                                
+                                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="10">
+                                        <Label Text="{Binding Text}" HorizontalOptions="StartAndExpand" FontSize="Medium"/>
+                                        <ImageButton Source="unchecked.png" VerticalOptions="Center"  HeightRequest="40" WidthRequest="40" IsVisible="true" BackgroundColor="White" Clicked="ImageButton_Clicked"/>
+                                    </StackLayout>
+                                
+                            </SwipeView>
+                            </Frame>
+                        </ViewCell.View>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+        <AbsoluteLayout>
+            <ImageButton Source="plus.png" 
+            BackgroundColor="#800080"
+            BorderColor="#800080"
+            CornerRadius="40"       
+            AbsoluteLayout.LayoutFlags="PositionProportional"  
+            AbsoluteLayout.LayoutBounds=".95,.95,70,70" Margin="0,15,0,20" 
+            Clicked="OnTodoAddedClicked" Padding="7"/>
+        </AbsoluteLayout>
+
+    </StackLayout>
+
+
+
+
+
+
+
+</ContentPage>

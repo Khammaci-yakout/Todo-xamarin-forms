@@ -1,0 +1,16 @@
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\bin\Debug\netstandard2.0\TodoProject.deps.json
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\bin\Debug\netstandard2.0\TodoProject.dll
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\bin\Debug\netstandard2.0\TodoProject.pdb
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.csproj.AssemblyReference.cache
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoEntryPage.xaml.g.cs
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoPage.xaml.g.cs
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.AssemblyInfoInputs.cache
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.AssemblyInfo.cs
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.csproj.CoreCompileInputs.cache
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.dll
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\refint\TodoProject.dll
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\TodoProject.pdb
+C:\Users\yakkh\source\repos\TodoProject\TodoProject\TodoProject\obj\Debug\netstandard2.0\ref\TodoProject.dll

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoProject.TodoEntryPage"
+             Title="Todo Entry"
+             BackgroundColor="#EBEAEA">
+    <StackLayout Margin="10,200,10,10" >
+        <Editor Placeholder="Place your todo here"
+                Text="{Binding Text}"
+                HeightRequest="60" />
+        <Grid>
+            <Button BackgroundColor="#800080" TextColor="White" Text="Save" VerticalOptions="CenterAndExpand" Clicked="OnSaveButtonClicked" CornerRadius="10">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="Scale" Value="1" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Pressed">
+                            <VisualState.Setters>
+                                <Setter Property="Scale" Value="0.8" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Button>
+        </Grid>
+    </StackLayout>
+</ContentPage>
+
+
+
